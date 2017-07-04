@@ -1,4 +1,3 @@
-library(ggplot2)
 
 plot_time <- function(clock.dial, hour = 12, minute = 0,
                       hour.hand.color = "blue", hour.hand.size = 0.7,

@@ -1,4 +1,7 @@
-library(ggplot2)
+
+.onAttach <- function(libname, pkgname){
+    packageStartupMessage("Welcome to use rclockplot.")
+}
 
 circle_data <- function(center = c(0, 0), diameter = 1, npoints = 300,
                         start = 0, end = 2, filled = TRUE) {
